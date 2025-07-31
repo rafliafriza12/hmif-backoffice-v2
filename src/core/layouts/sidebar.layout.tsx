@@ -33,7 +33,7 @@ export function SidebarLayout({ children }: AppLayoutProps) {
   return (
     <SidebarProvider defaultOpen>
       <div className="flex min-h-screen w-full">
-        <AppSidebar />
+        {/* <AppSidebar /> */}
         <SidebarInset>
           <div className="flex h-full flex-col w-full">
             <div className="flex p-4 items-center gap-2 border-b w-full h-20">

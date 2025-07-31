@@ -107,6 +107,11 @@
   --sidebar-accent-foreground: #911dec;
   --sidebar-border: rgba(145, 29, 236, 0.2);
   --sidebar-ring: rgba(145, 29, 236, 0.3);
+  --glass: rgba(51, 51, 51, 0.9);
+  --glass-stoke: rgba(161, 174, 197, 0.5);
+  --glass-pict: rgba(255, 255, 255, 0.1);
+  --shape-glass: rgba(85, 72, 91, 0.5);
+  --slice-foreground: rgba(115, 0, 255, 0.6);
 }
 
 .dark {
@@ -153,6 +158,10 @@
   --success-foreground: #28de2522;
   --info: #04b4fc;
   --info-foreground: #04b4fc22;
+  --glass-stoke: rgba(161, 174, 197, 0.5);
+  --glass: rgba(70, 60, 93, 0.7);
+  --glass-pict: rgba(255, 255, 255, 0.1);
+  --shape-glass: rgba(85, 72, 91, 0.5);
 
   /* Chart Colors */
   --chart-1: #911dec;
@@ -178,5 +187,6 @@
   }
   body {
     @apply bg-background text-foreground;
+    overflow-x: hidden;
   }
 }

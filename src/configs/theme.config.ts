@@ -20,6 +20,7 @@ interface ThemeConfig {
     border: string;
     input: string;
     ring: string;
+    glass: string;
   };
   dark: {
     background: string;
@@ -37,6 +38,7 @@ interface ThemeConfig {
     border: string;
     input: string;
     ring: string;
+    glass: string;
   };
 }
 
@@ -87,9 +89,10 @@ export const themeConfig: ThemeConfig = {
     border: 'rgba(145, 29, 236, 0.2)',
     input: 'rgba(145, 29, 236, 0.2)',
     ring: 'rgba(145, 29, 236, 0.3)',
+    glass: '#333333',
   },
   dark: {
-    background: '#1A1A1A',
+    background: '#0E0A17',
     foreground: '#F5EAFF',
     card: {
       background: '#2A2A2A',
@@ -100,7 +103,7 @@ export const themeConfig: ThemeConfig = {
       foreground: '#F5EAFF',
     },
     primary: {
-      background: '#911DEC',
+      background: '#0E0A17',
       foreground: '#F5EAFF',
     },
     secondary: {
@@ -134,5 +137,6 @@ export const themeConfig: ThemeConfig = {
     border: 'rgba(245, 234, 255, 0.1)',
     input: 'rgba(245, 234, 255, 0.15)',
     ring: 'rgba(245, 234, 255, 0.3)',
+    glass: '#333333',
   },
 };
